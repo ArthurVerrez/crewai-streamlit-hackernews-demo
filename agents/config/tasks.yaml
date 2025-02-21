@@ -1,6 +1,6 @@
 analysis_task:
   description: >
-    Analyze HackerNews posts as describe in the following request:
+    Analyze Hacker News posts as describe in the following request:
     ```
     {request}
     ```

@@ -9,13 +9,13 @@ def header():
     col3.image("static/hn_logo.png")
 
     st.markdown(
-        f"<h1>HackerNews Analyzer<small>{CURRENT_VERSION}</small></h1>",
+        f"<h1>Hacker News Analyzer<small>{CURRENT_VERSION}</small></h1>",
         unsafe_allow_html=True,
     )
 
     st.markdown(
         """Welcome! 👋 This is a simple example on using Streamlit as the UI for your CrewAI agents .
-        Here you can ask something like __"Analyze the latest trends on HackerNews"__ ✨"""
+        Here you can ask something like __"Analyze the latest trends on Hacker News"__ ✨"""
     )
 
     st.divider()

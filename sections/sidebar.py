@@ -9,7 +9,7 @@ def sidebar():
     for image, link, text in [
         (
             "static/gh_fav_logo.png",
-            "https://github.com/ArthurVerrez",
+            "https://github.com/ArthurVerrez/crewai-streamlit-hackernews-demo",
             "Github Repository",
         ),
         (
@@ -20,7 +20,7 @@ def sidebar():
         (
             "static/hn_fav_logo.png",
             "https://news.ycombinator.com/",
-            "HackerNews",
+            "Hacker News",
         ),
         (
             "static/st_fav_logo.png",
