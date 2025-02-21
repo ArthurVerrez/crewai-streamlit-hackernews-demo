@@ -46,5 +46,5 @@ class HackerNewsAnalyzer:
             verbose=True,
             step_callback=step_callback,
             task_callback=task_callback,
-            output_log_file=f"agents/logs/{time.time()}.log",
+            # output_log_file=f"agents/logs/{time.time()}.log",
         )
