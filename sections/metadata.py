@@ -4,7 +4,7 @@ from constants import DEFAULT_SESSION_STATE
 
 def metadata():
     st.set_page_config(
-        page_title="CrewAI Agent",
+        page_title="Hacker News Analyzer with CrewAI and Streamlit",
         page_icon="🤖",
         initial_sidebar_state="expanded",
     )
