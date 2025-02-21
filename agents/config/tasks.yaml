@@ -1,0 +1,11 @@
+analysis_task:
+  description: >
+    Analyze HackerNews posts as describe in the following request:
+    ```
+    {request}
+    ```
+
+    Giving out a list of posts is rarely what the user wants, try to give out more general analyses and trends, and maybe a few example posts.
+  expected_output: >
+    A detailed but concise response to the request in a structured markdown format.
+  agent: analyzer
