@@ -4,6 +4,8 @@
 
 A demonstration of integrating a CrewAI agent within a Streamlit UI to analyze top Hacker News posts. This project sets up a crew, tool, agent, and task to showcase core functionalities.
 
+You can access a live version of the app [here](https://crewai-hackernews-demo.streamlit.app/).
+
 ![App Screenshot](app_screenshot.png)
 
 ## Features
