@@ -1,8 +1,9 @@
 # The next 3 lines are here for compatibility with the Streamlit Cloud platform
-__import__("pysqlite3")
 import sys
 
-sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+if sys.platform.startswith("linux"):
+    __import__("pysqlite3")
+    sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 
 import streamlit as st
 from sections.metadata import metadata
